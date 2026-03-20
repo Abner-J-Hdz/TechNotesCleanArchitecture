@@ -1,0 +1,72 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet publish
+publish/
+*.publish.xml
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.vs/
+TestResults/
+*.TestResults/
+*.tmp
+*.bak
+*.swp
+*.orig
+*.userprefs
+
+# Local secrets
+secrets.json
+
+# IIS Express
+.vs/
+*.vspscc
+*.vssscc
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Entity Framework
+Migrations/

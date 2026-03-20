@@ -9,3 +9,4 @@ C:\Users\abner\Documents\GitHub\TechNotes\TechNotes.Domain\obj\Debug\net8.0\Tech
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes.Domain\obj\Debug\net8.0\refint\TechNotes.Domain.dll
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes.Domain\obj\Debug\net8.0\TechNotes.Domain.pdb
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes.Domain\obj\Debug\net8.0\ref\TechNotes.Domain.dll
+C:\Users\abner\Documents\GitHub\TechNotes\TechNotes.Domain\obj\Debug\net8.0\TechNotes.Domain.sourcelink.json

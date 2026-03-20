@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "alw3+RymePQ=",
+  "dgSpecHash": "fSJgmHkQUPI=",
   "success": true,
   "projectFilePath": "C:\\Users\\abner\\Documents\\GitHub\\TechNotes\\TechNotes\\TechNotes.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\abner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
