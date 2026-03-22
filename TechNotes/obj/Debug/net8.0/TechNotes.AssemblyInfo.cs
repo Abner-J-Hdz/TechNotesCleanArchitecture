@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechNotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88b4f7990faa05c9bf083d224b25ecda6f455c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efda3a6f9373a8c383b97a729291e683628f59cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechNotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechNotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

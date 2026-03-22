@@ -30,11 +30,5 @@ C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\refint\Tech
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\TechNotes.pdb
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\TechNotes.genruntimeconfig.cache
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\ref\TechNotes.dll
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\bin\Debug\net8.0\TechNotes.Application.dll
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\bin\Debug\net8.0\TechNotes.Domain.dll
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\bin\Debug\net8.0\TechNotes.Application.pdb
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\bin\Debug\net8.0\TechNotes.Domain.pdb
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\TechNotes.csproj.AssemblyReference.cache
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\TechNotes.csproj.Up2Date
-C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\TechNotes.sourcelink.json
+C:\Users\abner\Documents\GitHub\TechNotes\TechNotes\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
