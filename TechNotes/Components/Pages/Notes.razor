@@ -1,0 +1,35 @@
+﻿@page "/notes"
+@attribute [StreamRendering]// This component demonstrates showing data.
+
+@inject INoteService NoteService
+@using TechNotes.Application.Services
+@using TechNotes.Application.Interfaces
+@using TechNotes.Domain.Entities
+
+@if(notes.Count == 0){
+    <p>Cargando notas...</p>
+}
+else{
+    foreach(var note in notes){
+        <div>
+            <h4>@note.Title</h4>
+            <p>@note.Content</p>
+            <small>@note.CreatedAt.ToString("g")</small>
+        </div>
+        <strong>--------------------------</strong>
+    }
+}
+
+
+@code {
+    private List<Domain.Entities.Notes> notes = new List<Domain.Entities.Notes>();
+
+    protected override async Task OnInitializedAsync(){
+        await Task.Delay(1500); // Simulate asynchronous loading to demonstrate streaming rendering
+         var result = NoteService.GetAllNotes();
+
+         if(result is not null){
+            notes = result.ToList();
+         }
+    }
+}
