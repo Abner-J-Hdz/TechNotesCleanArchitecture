@@ -1,12 +1,12 @@
 ﻿@page "/notes"
 @attribute [StreamRendering]// This component demonstrates showing data.
 
-@inject INoteService NoteService
+@* @inject INoteService NoteService
 @using TechNotes.Application.Services
 @using TechNotes.Application.Interfaces
 @using TechNotes.Domain.Entities
-
-@if(notes.Count == 0){
+ *@
+@* @if(notes.Count == 0){
     <p>Cargando notas...</p>
 }
 else{
@@ -18,18 +18,18 @@ else{
         </div>
         <strong>--------------------------</strong>
     }
-}
+} *@
 
 
 @code {
-    private List<Domain.Entities.Notes> notes = new List<Domain.Entities.Notes>();
+    //private List<Domain.Entities.Notes> notes = new List<Domain.Entities.Notes>();
 
-    protected override async Task OnInitializedAsync(){
-        await Task.Delay(1500); // Simulate asynchronous loading to demonstrate streaming rendering
-         var result = NoteService.GetAllNotes();
+    // protected override async Task OnInitializedAsync(){
+    //     await Task.Delay(1500); // Simulate asynchronous loading to demonstrate streaming rendering
+    //      var result = NoteService.GetAllNotes();
 
-         if(result is not null){
-            notes = result.ToList();
-         }
-    }
+    //      if(result is not null){
+    //         notes = result.ToList();
+    //      }
+    // }
 }
