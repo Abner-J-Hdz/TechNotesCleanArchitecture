@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechNotes.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88b4f7990faa05c9bf083d224b25ecda6f455c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2043959de458a6fb0d684d43c4ec1b49b841a3da")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechNotes.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechNotes.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

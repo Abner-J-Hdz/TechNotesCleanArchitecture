@@ -1,6 +1,5 @@
-//using TechNotes.Application;
-//using TechNotes.Application.Interfaces;
-//using TechNotes.Application.Services;
+using TechNotes.Infrastructure;
+using TechNotes.Application;
 using TechNotes.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-//builder.Services.AddApplication();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

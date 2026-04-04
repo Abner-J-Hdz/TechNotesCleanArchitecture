@@ -5,5 +5,5 @@ namespace TechNotes.Application.Interfaces;
 
 public interface INoteService
 {
-    List<Notes> GetAllNotes();
+    Task<List<Notes>> GetAllNotesAsync();
 }
