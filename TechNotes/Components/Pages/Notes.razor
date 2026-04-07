@@ -1,9 +1,13 @@
 ﻿@page "/notes"
+
 @attribute [StreamRendering]// This component demonstrates showing data.
 
-@inject INoteService NoteService;
-@using TechNotes.Application.Interfaces
- 
+@* @inject INoteService NoteService; *@
+@* @using TechNotes.Application.Interfaces *@
+
+@inject ISender Sender;
+
+
 
 @if(notes.Count == 0){
     <p>Cargando notas...</p>
@@ -25,7 +29,7 @@ else{
 
     protected override async Task OnInitializedAsync(){
         await Task.Delay(1500); // Simulate asynchronous loading to demonstrate streaming rendering
-         var result = await NoteService.GetAllNotesAsync();
+        var result = await Sender.Send(new GetNotesQuery());
 
          if(result is not null){
             notes = result.ToList();
